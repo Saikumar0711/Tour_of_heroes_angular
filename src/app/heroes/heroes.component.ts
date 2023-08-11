@@ -15,6 +15,7 @@ import { HEROES } from '../mock-heroes';
 export class HeroesComponent implements OnInit {
 
   @Input() hero!: Hero;
+  
 
   constructor() { }
 
