@@ -14,12 +14,13 @@ import { HEROES } from '../mock-heroes';
 })
 export class HeroesComponent implements OnInit {
 
-  @Input() hero!: Hero;
+  heroes = HEROES;
+
+  constructor() {}
+
+   onSelect(hero: Hero){}
+
   
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

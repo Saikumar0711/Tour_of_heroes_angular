@@ -7,7 +7,7 @@ export const HEROES: Hero[] = [
   { id: 4, name: 'Ravindra Jadeja' },
   { id: 5, name: 'Jaspreet Bhumra' },
   { id: 6, name: 'Sonu Sood' },
-  { id: 7, name: 'Sandeep Maheshwari' },
+  { id: 7, name: 'Suresh Raina' },
   { id: 8, name: 'Carry Minati' },
   { id: 9, name: 'Bhuvan Bham' }
 ];
